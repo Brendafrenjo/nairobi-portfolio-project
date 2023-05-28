@@ -1,15 +1,51 @@
-.container {
-  padding: 30px 0;
+.root {
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 h1 {
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+}
+
+.container {
+  padding-top: 30px;
+  max-width: 90%;
+}
+
+.hero {
+  text-align: center;
+  background-image: url(/images/skyline-nrb.jpg);
+  opacity: 0.8;
+  color: white;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: regular;
+  line-height: 2;
+}
+
+.hero h3 {
+  font-size: 30px;
+  font-family: var(--default-font-family);
+}
+
+.btn-branding {
+  font-size: 18px;
+  line-height: 27px;
+  font-style: var(--default-font-family);
+  font-weight: medium;
+  background-color: white;
+  border-radius: 4px;
+  padding: 15px 30px;
 }
