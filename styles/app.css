@@ -221,4 +221,28 @@ p {
     margin: 0;
     padding: 0;
   }
+
+  .btn-branding {
+    border-radius: 4px;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-style: var(--default-font-family);
+    line-height: 20px;
+  }
+
+  .btn-branding:hover {
+    border-radius: 4px;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-style: var(--default-font-family);
+    line-height: 20px;
+  }
 }
