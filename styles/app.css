@@ -107,8 +107,8 @@ p {
 }
 
 .alpha .project-description {
-  padding-bottom: 50px;
   margin: 0;
+  padding: 120px 60px;
 }
 
 .delta,
