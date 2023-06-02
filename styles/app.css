@@ -50,6 +50,18 @@ p {
   margin-bottom: 40px;
 }
 
+.history-hero {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/Nairobi-City-County-13-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  color: white;
+  padding: 160px 20px;
+  margin-bottom: 40px;
+}
+
 .hero h2 {
   font-family: var(--default-font-family);
   font-size: 30px;
@@ -62,25 +74,25 @@ p {
   font-family: var(--default-font-family);
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-family: var(--default-font-family);
   font-size: 24px;
   font-weight: 700;
   line-height: 2;
 }
 
-.about-content {
+.content {
   max-width: 900px;
   margin: 0 auto;
   display: block;
 }
 
-.about-content img {
+.content img {
   display: block;
   margin: 0 auto;
 }
@@ -182,6 +194,12 @@ p {
   text-decoration: none;
 }
 
+.content .btn-information {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
 .attractions {
   height: 300px;
 }
@@ -207,23 +225,27 @@ p {
     padding: 80px 10px;
   }
 
-  .about-section h1 {
-  font-size: 46px;
-  line-height: 1;
-  font-weight: 700;
-}
+  .history-hero {
+    padding: 80px 10px;
+  }
 
-.about-section h2 {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.5;
-  padding: 20px;
-}
+  .content-container h1 {
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700;
+  }
 
-.about-hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-    url(/images/nairobi-tours-2.jpg);
-}
+  .content-container h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 20px;
+  }
+
+  .about-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+      url(/images/nairobi-tours-2.jpg);
+  }
 
   .hero h2 {
     font-size: 22px;
