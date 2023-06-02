@@ -323,4 +323,8 @@ p {
     font-style: var(--default-font-family);
     line-height: 20px;
   }
+
+  .content .btn-information {
+  width: 250px;
+  }
 }
