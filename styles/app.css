@@ -200,13 +200,18 @@ p {
   margin: 0 auto;
 }
 
-.attractions {
-  height: 300px;
+.sites .btn-information {
+  display: block;
+  margin: 0 auto;
 }
 
-.video {
-  width: 100%;
-  aspect-ratio: 16/9;
+.sites {
+  display: block;
+  margin: 0 auto;
+}
+
+.attractions {
+  height: 300px;
 }
 
 @media (max-width: 900px) {
@@ -216,17 +221,19 @@ p {
     font-weight: 700;
   }
 
-  .hero {
+  .hero,
+  .about-hero,
+  .history-hero {
     padding: 80px 10px;
+  }
+
+  .hero {
     margin-bottom: 0px;
   }
 
   .about-hero {
-    padding: 80px 10px;
-  }
-
-  .history-hero {
-    padding: 80px 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+      url(/images/nairobi-tours-2.jpg);
   }
 
   .content-container h1 {
@@ -240,11 +247,6 @@ p {
     font-weight: 600;
     line-height: 1.5;
     padding: 20px;
-  }
-
-  .about-hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-      url(/images/nairobi-tours-2.jpg);
   }
 
   .hero h2 {
@@ -324,7 +326,13 @@ p {
     line-height: 20px;
   }
 
-  .content .btn-information {
-  width: 250px;
+  .content .btn-information,
+  .sites .btn-information {
+    width: 250px;
+  }
+
+  .sites img {
+    display: block;
+    margin: 0 auto;
   }
 }
