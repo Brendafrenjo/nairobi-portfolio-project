@@ -2,6 +2,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --primary-color: #272142;
+  --branding-color: #6c63ff;
 }
 
 h1 {
@@ -21,8 +22,9 @@ p {
   color: var(--primary-color);
   opacity: 0.7;
 }
-.container {
-  padding: 60px 0;
+
+.container-main {
+  padding-bottom: 60px;
   max-width: 90%;
 }
 
@@ -35,7 +37,7 @@ p {
   opacity: 0.8;
   color: white;
   padding: 160px 20px;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .about-hero {
@@ -151,11 +153,6 @@ p {
   max-width: 100%;
 }
 
-.alpha .project-description {
-  margin: 0;
-  padding: 0 20px;
-}
-
 .delta,
 .beta {
   background-color: #f9f7fe;
@@ -214,9 +211,42 @@ p {
   height: 300px;
 }
 
+.logo {
+  max-height: 60px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 45px;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #6c63ff;
+}
+
 @media (max-width: 900px) {
   h1 {
-    font-size: 55px;
+    font-size: 50px;
     line-height: 1;
     font-weight: 700;
   }
@@ -334,5 +364,10 @@ p {
   .sites img {
     display: block;
     margin: 0 auto;
+  }
+
+  nav li {
+    font-size: 13px;
+    margin-left: 10px;
   }
 }
