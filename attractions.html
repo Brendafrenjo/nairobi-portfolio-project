@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Attractions in Nairobi</title>
+    <meta
+      name="description"
+      content="Explore Nairobi's top tourist attractions, including the Nairobi National Park, David Sheldrick Wildlife Trust, and Karen Blixen Museum, offering a captivating blend of wildlife, history, and vibrant local culture."
+    />
+    <title>Tourist attractions Sites in Nairobi City</title>
 
     <script
       src="https://kit.fontawesome.com/405dcb50d6.js"
@@ -30,10 +34,42 @@
     <link rel="stylesheet" href="styles/app.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="/images/nairobi-city-county-logo.jpg"
+            class="logo d-none d-md-block"
+            alt="Nairobi City Logo"
+          />
+          <img
+            src="/images/nairobi-city-logo-small.png"
+            class="logo d-block d-md-none"
+            alt="Nairobi City Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Nairobi">About</a>
+          </li>
+          <li>
+            <a href="/history.html" title="History of Nairobi">History</a>
+          </li>
+          <li class="active">
+            <a href="/attractions.html" title="Attractions in Nairobi"
+              >Attractions</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-container container-main">
-        <h1 class="m-5 attractions-hero">
-          Take a look at some of Nairobi's attraction sites!
-        </h1>
+      <h1 class="m-4 attractions-hero">
+        Take a look at some of Nairobi's attraction sites!
+      </h1>
       <div class="container sites mt-0">
         <div class="row">
           <div class="col-lg-4">
@@ -46,6 +82,7 @@
             <a
               href="https://www.sheldrickwildlifetrust.org/"
               target="_blank"
+              title="Sheldrick Wildlife Trust"
               class="btn-information mb-4"
               >Learn more</a
             >
@@ -59,6 +96,7 @@
             <h4 class="text-center">Karura Forest</h4>
             <a
               href="https://twendesasa.com/karura-forest-activities-and-charges/"
+              title="Karura Forest"
               target="_blank"
               class="btn-information mb-4"
               >Learn more</a
@@ -73,6 +111,7 @@
             <h4 class="text-center">Nairobi National Park</h4>
             <a
               href="https://www.kws.go.ke/parks/nairobi-national-park"
+              title="Nairobi National Park"
               target="_blank"
               class="btn-information mb-4"
               >Learn more</a
@@ -87,6 +126,7 @@
             <h4 class="text-center">The Giraffe Center</h4>
             <a
               href="https://www.tripadvisor.com/Attraction_Review-g294207-d459948-Reviews-Giraffe_Centre-Nairobi.html"
+              title="The Giraffe Center"
               target="_blank"
               class="btn-information mb-4"
               >Learn more</a
@@ -101,6 +141,7 @@
             <h4 class="text-center">Karen Blixen Museum</h4>
             <a
               href="https://museums.or.ke/karen-blixen/"
+              title="Karen Blixen Museum"
               target="_blank"
               class="btn-information mb-4"
               >Learn more</a
@@ -115,6 +156,7 @@
             <h4 class="text-center">Nairobi National Museum</h4>
             <a
               href="https://museums.or.ke/nairobi-national-museum/"
+              title="Nairobi National Museum"
               target="_blank"
               class="btn-information mb-4"
               >Learn more</a
