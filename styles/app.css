@@ -35,7 +35,8 @@ footer {
   max-width: 100%;
 }
 
-footer p, footer a {
+footer p,
+footer a {
   opacity: 1;
   font-size: 17px;
 }
@@ -113,6 +114,10 @@ footer p, footer a {
 .content img {
   display: block;
   margin: 0 auto;
+}
+
+.project-description-nairobi {
+  padding-left: 20px;
 }
 
 .btn-branding {
@@ -228,8 +233,8 @@ footer p, footer a {
 }
 
 .attractions-hero {
-    text-align: left;
-  }
+  text-align: left;
+}
 
 .logo {
   max-height: 60px;
@@ -396,8 +401,8 @@ nav li.active a {
   }
 
   footer {
-     padding: 50px 5px;
-  margin-top: 10px;
-  text-align: center;
+    padding: 50px 5px;
+    margin-top: 10px;
+    text-align: center;
   }
 }
